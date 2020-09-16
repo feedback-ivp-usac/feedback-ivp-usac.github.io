@@ -262,7 +262,7 @@
         var category = $("#category").val();
         $.ajax({
             type: "POST",
-            url: "https://formsubmit.co/nalwa.avijit@gmail.com",
+            url: "https://formsubmit.co/feedback.ivp.usac@gmail.com",
             data: "name=" + name + "&email=" + email + "&title=" + title + "&category=" + category + "&message=" + message, 
             success: function(text) {
                 if (text == "success") {
