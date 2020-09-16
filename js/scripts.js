@@ -262,7 +262,7 @@
         var category = $("#category").val();
         $.ajax({
             type: "POST",
-            url: "https://formsubmit.co/feedback.ivp.usac@gmail.com",
+            url: "https://formsubmit.co/23144800a6a124c8d4554043a5685a74",
             data: "name=" + name + "&email=" + email + "&title=" + title + "&category=" + category + "&message=" + message, 
             success: function(text) {
                 if (text == "success") {
